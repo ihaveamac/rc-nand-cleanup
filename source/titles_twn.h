@@ -20,7 +20,7 @@
  * SOFTWARE.
  */
 
-const u64 titleIDs_twn[50] = {
+const u64 titleIDs_twn[] = {
 	0x0004001000028000,
 	0x0004001000028100,
 	0x0004001000028200,

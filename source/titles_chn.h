@@ -20,7 +20,7 @@
  * SOFTWARE.
  */
 
-const u64 titleIDs_chn[46] = {
+const u64 titleIDs_chn[] = {
 	0x0004001000026000,
 	0x0004001000026100,
 	0x0004001000026200,
