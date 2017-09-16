@@ -149,8 +149,8 @@ int main(int argc, char **argv) {
 		case 1: titleIDList = titleIDs_usa; titleIDList_count = arraysizeof(titleIDs_usa); break;
 		case 2: titleIDList = titleIDs_eur; titleIDList_count = arraysizeof(titleIDs_eur); break;
 		case 4: titleIDList = titleIDs_chn; titleIDList_count = arraysizeof(titleIDs_chn); break;
-		case 5: titleIDList = titleIDs_twn; titleIDList_count = arraysizeof(titleIDs_twn); break;
-		case 6: titleIDList = titleIDs_kor; titleIDList_count = arraysizeof(titleIDs_kor); break;
+		case 5: titleIDList = titleIDs_kor; titleIDList_count = arraysizeof(titleIDs_kor); break;
+		case 6: titleIDList = titleIDs_twn; titleIDList_count = arraysizeof(titleIDs_twn); break;
 		default:
 			printf("Region unknown (%u). This is bad.\n", region);
 			nextState = STATE_EXIT;
