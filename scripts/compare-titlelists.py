@@ -18,8 +18,8 @@ with open(sys.argv[2], 'rb') as t:
 
 for tid in tids1:
     if tid not in tids2:
-        print('Missing from {}: {:016X}'.format(sys.argv[2], tid))
+        print('Missing from {}: {:08X} {:08X}'.format(sys.argv[2], tid >> 32, tid & 0xFFFFFFFF))
 
 for tid in tids2:
     if tid not in tids1:
-        print('Missing from {}: {:016X}'.format(sys.argv[1], tid))
+        print('Missing from {}: {:08X} {:08X}'.format(sys.argv[1], tid >> 32, tid & 0xFFFFFFFF))
