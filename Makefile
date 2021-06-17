@@ -34,7 +34,7 @@ DATA		:=	data
 INCLUDES	:=	include
 #ROMFS		:=	romfs
 
-VERSION		:=	1.02
+VERSION		:=	1.03
 
 APP_TITLE	:=	rc-nand-cleanup
 APP_DESCRIPTION	:=	Region-swap title cleaner
